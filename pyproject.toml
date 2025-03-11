@@ -17,9 +17,12 @@ dependencies = ["reflex>=0.7.1"]
 classifiers = ["Development Status :: 4 - Beta"]
 
 [project.urls]
+homepage = "https://github.com/tn3wman/reflex-mafs"
+source = "https://github.com/tn3wman/reflex-mafs"
 
 [project.optional-dependencies]
 dev = ["build", "twine"]
+
 
 [tool.setuptools.packages.find]
 where = ["custom_components"]
